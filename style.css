@@ -1,0 +1,131 @@
+h1, h2, h3, p{
+  margin: 0 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+p{
+  .9em;
+}
+
+h2{
+  text-shadow: 1px 1px #000000;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+a h2:hover{
+  color:rgb(200,200,200);
+  transform: translateY(-1px);
+}
+a h2:active{
+  transform: translateY(1px);
+}
+
+h1{
+  font-family: 'Bungee Shade', cursive;
+  font-size: 2.5em;
+  color:#9ce3fa;
+}
+
+#name{
+  text-shadow: 1px 1px #000000;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 1.8em;
+  color:#9ce3fa;
+
+}
+.tab{
+  margin-left: 60px;
+}
+
+
+.super-parent{
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.super-content{
+  color:#f9f7f5;
+  flex-grow: 1;
+  flex-basis: 0;
+  margin: 6px;
+  border-radius: 15px;
+  background-color: rgba(50, 104, 140, .8);
+}
+
+.parent{
+  display: flex;
+}
+
+.content {
+  flex-grow: 1;
+  flex-basis: 0;
+  margin: 6px;
+  display:inline-block;
+}
+
+.mid-page{
+  position: fixed;
+  left:50%;
+  transform: translate(-150px);
+  width:300px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgba(50, 104, 140, .8);
+  /*box-shadow: 1px 1px 1px 2px #000;*/
+  color:white;
+}
+.mid-page h1, h2, p, input{
+  margin:5px 0;
+}
+
+#canvasp {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+}
+
+#articles{
+  display:block;
+}
+
+.night-theme {
+  background-color: #1c5880;
+}
+
+#submit_button {
+  color:#1c5880;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #d4dada;
+  box-sizing: border-box;
+  outline: none;
+  white-space: nowrap;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  margin-bottom: 10px;
+}
+
+#submit_button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+#submit_button:active {
+  background-color: #f6f9fc;
+  transform: translateY(1px);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
